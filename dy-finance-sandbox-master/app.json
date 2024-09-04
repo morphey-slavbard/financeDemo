@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "owner": "dynamicyield",
+    "name": "dyFinance",
+    "slug": "dy-finance-app",
+    "version": "1.0.6",
+    "orientation": "portrait",
+    "icon": "./assets/dy-logo.png",
+    "splash": {
+      "image": "./assets/splash_black.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.dyFinance.app",
+      "buildNumber": "1.0.6",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app is using your camera for scanning barcodes and checks."
+      }
+    },
+    "android": {
+      "package": "com.dyFinance.app",
+      "versionCode": 6,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions": [
+        "RECEIVE_BOOT_COMPLETED",
+        "SCHEDULE_EXACT_ALARM",
+        "CAMERA",
+        "READ_PHONE_STATE",
+        "FOREGROUND_SERVICE",
+        "WAKE_LOCK",
+        "com.android.launcher.permission.INSTALL_SHORTCUT",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}

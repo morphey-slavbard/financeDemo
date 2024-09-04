@@ -1,0 +1,27 @@
+{
+  "cli": {
+    "requireCommit": false
+  },
+  "build": {
+    "internal": {
+      "distribution": "internal"
+    },
+    "preview": {
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "preview-bundle": {
+      "android": {
+        "gradleCommand": ":app:assembleRelease"
+      }
+    },
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "ios": {
+        "simulator": false
+      }
+    }
+  }
+}

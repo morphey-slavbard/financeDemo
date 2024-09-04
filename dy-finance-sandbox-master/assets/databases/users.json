@@ -1,0 +1,60 @@
+[
+  {
+    "id": 1,
+    "firstname": "Tristan",
+    "lastname": "Gregory",
+    "initials": "TG",
+    "email": "tristan.g@dynamicyield.com",
+    "avatar": {
+      "uri": "https://randomuser.me/api/portraits/men/17.jpg"
+    },
+    "spending": [
+      { "icon": "shopping-cart", "value": 40, "color": "#FF7A6A" },
+      { "icon": "automobile", "value": 15, "color": "#FFC46A" },
+      { "icon": "heart", "value": 30, "color": "#F05C4D" },
+      { "icon": "paw", "value": 15 }
+    ],
+    "transfers": [],
+    "status": "active",
+    "type": "student",
+    "fingerprint": null,
+    "current_month": 520,
+    "balance": 842,
+    "cookies": {
+      "dyid": "",
+      "dyid_server": "",
+      "session": {
+        "dy": ""
+      }
+    }
+  },
+  {
+    "id": 2,
+    "firstname": "Robert",
+    "lastname": "Travolta",
+    "initials": "RT",
+    "email": "robert@dynamicyield.com",
+    "avatar": {
+      "uri": "https://randomuser.me/api/portraits/men/22.jpg"
+    },
+    "spending": [
+      { "icon": "shopping-cart", "value": 15, "color": "#FF7A6A" },
+      { "icon": "automobile", "value": 40, "color": "#FFC46A" },
+      { "icon": "plane", "value": 15, "color": "#F05C4D" },
+      { "icon": "paw", "value": 30 }
+    ],
+    "transfers": [],
+    "status": "active",
+    "type": "business",
+    "fingerprint": null,
+    "current_month": 4320,
+    "balance": 98436,
+    "cookies": {
+      "dyid": "",
+      "dyid_server": "",
+      "session": {
+        "dy": ""
+      }
+    }
+  }
+]
